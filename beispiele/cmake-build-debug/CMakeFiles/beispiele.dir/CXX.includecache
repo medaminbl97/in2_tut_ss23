@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/beispiele/array.cpp
+array.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/beispiele/array.h
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/beispiele/array.h
+vec3d.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/beispiele/vec3d.h
+iostream
+-
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/beispiele/vec3d.h
+iostream
+-
+

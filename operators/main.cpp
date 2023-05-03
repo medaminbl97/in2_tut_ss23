@@ -39,15 +39,16 @@ int add(const punkt p1, const punkt p2){
     return p1.getX() + p2.getX() + p1.getY() + p2.getY();
 }
 
-
+void pow2(int& x){
+    std::cout << "Adess of x :" << &x << std::endl;
+    std::cout << "X ind pow func : " << x << std::endl;
+    x = x * x;
+    std::cout << "X ind pow func after mulipilcation : " << x << std::endl;
+}
 
 int main() {
     punkt p1(5,10);
     punkt p2(100,300);
-    std::cout << p1++; // post-- increment
-    //++p1; // pre- increment
-    std::cout << p1;
-
 
     /*int x = 10;
     std::cout << ++x << std::endl;
@@ -61,6 +62,10 @@ int main() {
     std::string nachname = "saidiene";
     std::cout << name.size();*/
 
+    int a = 40;
+    std::cout << "Adress of a : " << &a << std::endl;
+    pow2(a);
+    std::cout << a;
 
 
     return 0;
