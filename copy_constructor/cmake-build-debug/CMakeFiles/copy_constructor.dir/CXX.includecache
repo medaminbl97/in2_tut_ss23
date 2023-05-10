@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/copy_constructor/array.cpp
+array.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/copy_constructor/array.h
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/copy_constructor/array.h
+iostream
+-
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/copy_constructor/main.cpp
+iostream
+-
+array.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/copy_constructor/array.h
+
