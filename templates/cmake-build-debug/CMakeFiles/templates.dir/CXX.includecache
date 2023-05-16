@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/templates/container.h
+iostream
+-
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/templates/main.cpp
+iostream
+-
+container.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/templates/container.h
+vector
+-
+initializer_list
+-
+
