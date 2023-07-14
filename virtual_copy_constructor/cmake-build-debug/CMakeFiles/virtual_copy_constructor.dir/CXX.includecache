@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/virtual_copy_constructor/Uni.cpp
+Uni.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/virtual_copy_constructor/Uni.h
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/virtual_copy_constructor/Uni.h
+person.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/virtual_copy_constructor/person.h
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/virtual_copy_constructor/main.cpp
+iostream
+-
+person.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/virtual_copy_constructor/person.h
+Uni.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/virtual_copy_constructor/Uni.h
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/virtual_copy_constructor/person.h
+iostream
+-
+

@@ -44,3 +44,61 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+void Histogramm::addData(unsigned Categorie){
+
+    try{
+        DataStorage.at(Categorie)++;
+    }catch(const std::std::out_of_range& ex ){
+        DataStorage.resize(Categorie+1);
+        DataStorage.at(Categorie)++;
+        MaxCatgories = Categorie+1;
+    }
+
+}
+
+
+
+aufgabe 1.d
+
+unsigned index = 0;
+unsigned max = 0;
+
+ for(int i = 0; i < MaxCategories; i++){
+     if (max < DataStorage[i]) {
+         max = dataStorage;
+         index = i;
+     }
+
+ }
+
+ return index;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

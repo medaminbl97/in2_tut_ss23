@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/virtual_copy_constructor.dir/main.cpp.o CMakeFiles/virtual_copy_constructor.dir/person.cpp.o CMakeFiles/virtual_copy_constructor.dir/Uni.cpp.o -o virtual_copy_constructor 

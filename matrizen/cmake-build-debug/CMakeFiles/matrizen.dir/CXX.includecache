@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/matrizen/main.cpp
+iostream
+-
+vec3.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/matrizen/vec3.h
+mat3x3.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/matrizen/mat3x3.h
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/matrizen/mat3x3.cpp
+mat3x3.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/matrizen/mat3x3.h
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/matrizen/mat3x3.h
+cmath
+-
+vec3.h
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/matrizen/vec3.h
+
+/Users/mohamedaminebellil/Desktop/in2_tut_ss23/matrizen/vec3.h
+iostream
+-
+
